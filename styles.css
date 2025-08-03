@@ -1,13 +1,13 @@
-/* === African Colors Theme === */
+/* === Empowering the Nation African Theme === */
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fdf6e3;
+  background-color: #fdf6e3; /* soft beige */
 }
 
 header {
-  background-color: #2e7d32; /* deep green */
+  background-color: #3b7d3b; /* earthy green */
   color: white;
   padding: 20px;
   text-align: center;
@@ -34,13 +34,13 @@ header {
 }
 
 .nav-menu li a {
-  color: #ffcc00; /* warm gold */
+  color: #ff9800; /* vibrant orange */
   text-decoration: none;
   font-weight: bold;
 }
 
 .nav-menu li a:hover {
-  color: #f44336; /* rich red */
+  color: #8d6e63; /* warm brown */
 }
 
 /* === Page Section Styling === */
@@ -81,7 +81,7 @@ form select[multiple] {
 }
 
 form button {
-  background-color: #f44336;
+  background-color: #ff9800; /* orange */
   color: white;
   border: none;
   padding: 12px 20px;
@@ -93,13 +93,13 @@ form button {
 }
 
 form button:hover {
-  background-color: #c62828;
+  background-color: #e65100; /* darker orange */
 }
 
 .home-link {
   display: inline-block;
   margin-top: 20px;
-  color: #2e7d32;
+  color: #3b7d3b;
   text-decoration: none;
   font-weight: bold;
 }
@@ -112,8 +112,8 @@ form button:hover {
 .summary {
   margin-top: 30px;
   padding: 20px;
-  background-color: #e8f5e9;
-  border-left: 5px solid #2e7d32;
+  background-color: #e8f5e9; /* light green */
+  border-left: 5px solid #3b7d3b;
   border-radius: 5px;
   font-size: 16px;
 }
@@ -122,7 +122,7 @@ form button:hover {
 footer {
   text-align: center;
   padding: 15px;
-  background-color: #2e7d32;
+  background-color: #3b7d3b;
   color: white;
   margin-top: 40px;
 }
