@@ -1,83 +1,128 @@
-/* General body styling */
+/* === African Colors Theme === */
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff8f0; /* Soft cream background */
-  color: #3e2f1c; /* Earthy brown text */
+  background-color: #fdf6e3;
 }
 
-/* Header styling with African-inspired colors */
 header {
-  background-color: #8b4513; /* Rich brown */
+  background-color: #2e7d32; /* deep green */
   color: white;
   padding: 20px;
   text-align: center;
 }
 
-/* Logo container styling */
 .logo-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 15px;
-  flex-wrap: wrap;
 }
 
-/* Logo image styling */
 .logo {
-  height: 80px;
-  width: auto;
-  border-radius: 8px; /* Optional: rounded corners */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
-}
-
-/* Navigation menu styling */
-nav {
-  margin-top: 10px;
+  height: 50px;
 }
 
 .nav-menu {
   list-style: none;
+  padding: 0;
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 0;
-  margin: 10px 0;
-  flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .nav-menu li a {
-  color: white;
+  color: #ffcc00; /* warm gold */
   text-decoration: none;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  transition: color 0.3s ease;
 }
 
 .nav-menu li a:hover {
-  color: #ffd700; /* Gold on hover */
+  color: #f44336; /* rich red */
 }
 
-/* Main content styling */
+/* === Page Section Styling === */
 main {
-  padding: 20px;
+  padding: 30px;
 }
 
-/* Intro section styling */
-.intro {
-  background-color: #fef3dc; /* Light yellow background */
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+section {
+  background-color: #ffffff;
+  padding: 25px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer styling */
-footer {
-  background-color: #8b4513;
-  color: white;
-  text-align: center;
+/* === Form Styling === */
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+form input,
+form select {
+  width: 100%;
   padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+form select[multiple] {
+  height: auto;
+}
+
+form button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #c62828;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
+
+/* === Summary Box === */
+.summary {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e8f5e9;
+  border-left: 5px solid #2e7d32;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #2e7d32;
+  color: white;
+  margin-top: 40px;
 }
