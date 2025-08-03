@@ -1,0 +1,83 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0; /* Soft cream background */
+  color: #3e2f1c; /* Earthy brown text */
+}
+
+/* Header styling with African-inspired colors */
+header {
+  background-color: #8b4513; /* Rich brown */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Logo container styling */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Logo image styling */
+.logo {
+  height: 80px;
+  width: auto;
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
+}
+
+/* Navigation menu styling */
+nav {
+  margin-top: 10px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+  color: #ffd700; /* Gold on hover */
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+}
+
+/* Intro section styling */
+.intro {
+  background-color: #fef3dc; /* Light yellow background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer styling */
+footer {
+  background-color: #8b4513;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
