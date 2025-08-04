@@ -5,6 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>First Aid – Empowering the Nation</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .course-layout {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .course-text {
+      flex: 1;
+      min-width: 300px;
+    }
+    .course-image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+    .course-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -25,9 +49,16 @@
 
   <main>
     <section>
-      <h2>First Aid – R1500</h2>
-      <p><strong>Purpose:</strong> To empower learners with essential emergency response skills that can save lives in domestic and workplace settings.</p>
-      <p><strong>Introduction:</strong> This six-month Learnership covers CPR, wound care, burn treatment, and emergency preparedness. Learners will gain hands-on experience and receive certification upon completion. Ideal for domestic workers and gardeners who want to be prepared for any situation.</p>
+      <div class="course-layout">
+        <div class="course-text">
+          <h2>First Aid – R1500</h2>
+          <p><strong>Purpose:</strong> To empower learners with essential emergency response skills that can save lives in domestic and workplace settings.</p>
+          <p><strong>Introduction:</strong> This six-month Learnership covers CPR, wound care, burn treatment, and emergency preparedness. Learners will gain hands-on experience and receive certification upon completion. Ideal for domestic workers and gardeners who want to be prepared for any situation.</p>
+        </div>
+        <div class="course-image">
+          <img src="assets/first-aid-image.png" alt="First Aid Course Image" />
+        </div>
+      </div>
       <a href="course-summary.html" class="home-link">← Back to Course Summary</a>
     </section>
   </main>
