@@ -5,6 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Landscaping – Empowering the Nation</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* === Landscaping Section Layout === */
+    .centered-layout {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin: 40px auto;
+      max-width: 900px;
+    }
+
+    .course-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .course-text {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .course-text h2 {
+      color: #ff9800;
+    }
+
+    .course-image {
+      flex: 0 0 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .course-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -24,11 +70,18 @@
   </header>
 
   <main>
-    <section>
-      <h2>Landscaping – R1500</h2>
-      <p><strong>Purpose:</strong> To equip learners with the knowledge and skills to design and maintain outdoor spaces.</p>
-      <p><strong>Introduction:</strong> This six-month Learnership covers garden planning, soil preparation, plant selection, and maintenance techniques. Learners will gain hands-on experience in transforming gardens into beautiful, functional spaces.</p>
-      <a href="course-summary.html" class="home-link">← Back to Course Summary</a>
+    <section class="centered-layout">
+      <div class="course-content">
+        <div class="course-text">
+          <h2>Landscaping – R1500</h2>
+          <p><strong>Purpose:</strong> To equip learners with the knowledge and skills to design and maintain outdoor spaces.</p>
+          <p><strong>Introduction:</strong> This six-month Learnership covers garden planning, soil preparation, plant selection, and maintenance techniques. Learners will gain hands-on experience in transforming gardens into beautiful, functional spaces.</p>
+          <a href="course-summary.html" class="home-link">← Back to Course Summary</a>
+        </div>
+        <div class="course-image">
+          <img src="assets/landscaping-image.png" alt="Landscaping Course Image">
+        </div>
+      </div>
     </section>
   </main>
 

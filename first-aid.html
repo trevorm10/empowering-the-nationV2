@@ -6,27 +6,49 @@
   <title>First Aid – Empowering the Nation</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
-    .course-layout {
+    /* === First Aid Section Layout === */
+    .centered-layout {
       display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
+      justify-content: center;
       align-items: center;
-      justify-content: space-between;
+      padding: 25px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin: 40px auto;
+      max-width: 900px;
     }
+
+    .course-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+
     .course-text {
       flex: 1;
       min-width: 300px;
     }
-    .course-image {
-      flex: 1;
-      min-width: 300px;
-      text-align: center;
+
+    .course-text h2 {
+      color: #ff9800;
     }
+
+    .course-image {
+      flex: 0 0 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .course-image img {
       max-width: 100%;
       height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
   </style>
 </head>
@@ -48,18 +70,18 @@
   </header>
 
   <main>
-    <section>
-      <div class="course-layout">
+    <section class="centered-layout">
+      <div class="course-content">
         <div class="course-text">
           <h2>First Aid – R1500</h2>
-          <p><strong>Purpose:</strong> To empower learners with essential emergency response skills that can save lives in domestic and workplace settings.</p>
-          <p><strong>Introduction:</strong> This six-month Learnership covers CPR, wound care, burn treatment, and emergency preparedness. Learners will gain hands-on experience and receive certification upon completion. Ideal for domestic workers and gardeners who want to be prepared for any situation.</p>
+          <p><strong>Purpose:</strong> To provide learners with essential emergency response skills for home and workplace safety.</p>
+          <p><strong>Introduction:</strong> This six-month Learnership covers CPR, wound care, choking response, and basic life support techniques. Learners will be equipped to act confidently in emergency situations.</p>
+          <a href="course-summary.html" class="home-link">← Back to Course Summary</a>
         </div>
         <div class="course-image">
-          <img src="assets/first-aid-image.png" alt="First Aid Course Image" />
+          <img src="assets/first-aid-image.png" alt="First Aid Course Image">
         </div>
       </div>
-      <a href="course-summary.html" class="home-link">← Back to Course Summary</a>
     </section>
   </main>
 

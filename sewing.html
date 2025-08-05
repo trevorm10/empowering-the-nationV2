@@ -5,6 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sewing – Empowering the Nation</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* === Sewing Section Layout === */
+    .centered-layout {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin: 40px auto;
+      max-width: 900px;
+    }
+
+    .course-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .course-text {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .course-text h2 {
+      color: #ff9800;
+    }
+
+    .course-image {
+      flex: 0 0 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .course-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -24,11 +70,18 @@
   </header>
 
   <main>
-    <section>
-      <h2>Sewing – R1500</h2>
-      <p><strong>Purpose:</strong> To teach learners practical sewing skills for personal use or small business opportunities.</p>
-      <p><strong>Introduction:</strong> This six-month Learnership introduces learners to hand and machine sewing, pattern reading, garment construction, and basic tailoring. Ideal for domestic workers interested in fashion, repairs, or starting a home-based sewing business.</p>
-      <a href="course-summary.html" class="home-link">← Back to Course Summary</a>
+    <section class="centered-layout">
+      <div class="course-content">
+        <div class="course-text">
+          <h2>Sewing – R1500</h2>
+          <p><strong>Purpose:</strong> To empower learners with the ability to create, repair, and customize garments and textiles.</p>
+          <p><strong>Introduction:</strong> This six-month Learnership covers hand and machine sewing, pattern reading, fabric selection, and garment construction. Learners will gain practical skills for personal use or small business opportunities.</p>
+          <a href="course-summary.html" class="home-link">← Back to Course Summary</a>
+        </div>
+        <div class="course-image">
+          <img src="assets/sewing-image.png" alt="Sewing Course Image">
+        </div>
+      </div>
     </section>
   </main>
 
